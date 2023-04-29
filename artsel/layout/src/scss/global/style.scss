@@ -1,0 +1,10 @@
+// Базовый файл стилей, все импорты подключаются тут.
+@import "_variables";
+@import "_mixins";
+@import "_fonts";
+@import "_libs";
+@import "_base";
+
+@import "../components/singles";
+@import "../components/blocks";
+@import "../components/sections";

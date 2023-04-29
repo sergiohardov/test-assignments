@@ -1,0 +1,33 @@
+<form class="contact-form" id="@@form_id">
+
+  <div class="contact-form__field">
+    <label for="form_fullname">Name</label>
+    <input name="form_fullname" type="text" placeholder="John Doe" id="form_fullname" />
+    <span class="contact-form__error">Please complete this name field.</span>
+  </div>
+
+  <div class="contact-form__field">
+    <label for="form_email">Email</label>
+    <input name="form_email" type="email" placeholder="johndoe@gmail.com" id="form_email" />
+    <span class="contact-form__error">Please complete this email field.</span>
+  </div>
+
+  <div class="contact-form__field">
+    <label for="form_message">Your Message</label>
+    <textarea
+      name="form_message"
+      cols="30"
+      rows="4"
+      placeholder="Tell us what you need and we’ll take care of the rest."
+      id="form_message"
+    ></textarea>
+    <span class="contact-form__error">Please complete this message field.</span>
+  </div>
+
+  <div class="contact-form__controls">
+    <div id="@@captcha_id" class="g-recaptcha"></div>
+    <button id="@@submit_id" class="contact-form__submit success" type="submit" disabled>Send Message</button>
+    <span class="contact-form__error text-right">You must approve captcha.</span>
+  </div>
+  
+</form>

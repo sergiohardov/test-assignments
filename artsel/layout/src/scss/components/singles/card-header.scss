@@ -1,0 +1,12 @@
+.card-header {
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  &__subtitle {
+    font-size: 18px;
+    font-weight: 40;
+    margin-bottom: 0;
+  }
+}

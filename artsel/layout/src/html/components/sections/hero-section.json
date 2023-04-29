@@ -1,0 +1,38 @@
+[
+  {
+    "bg_color": { "top": "#FFDD22", "bottom": "#383030" },
+    "src": "assets/img/member-2.jpg",
+    "title": "Alex Smitt",
+    "subtitle": "Software Engineer"
+  },
+  {
+    "bg_color": { "top": "#780D1A", "bottom": "#F73821" },
+    "src": "assets/img/member-1.jpg",
+    "title": "Tim Clark",
+    "subtitle": "Resources Specialist"
+  },
+  {
+    "bg_color": { "top": "#FF97B3", "bottom": "#E55C21" },
+    "src": "assets/img/member-2.jpg",
+    "title": "Andrew Inc",
+    "subtitle": "Sales Representative"
+  },
+  {
+    "bg_color": { "top": "#A3C7ED", "bottom": "#0A2640" },
+    "src": "assets/img/member-1.jpg",
+    "title": "John Doe",
+    "subtitle": "Marketing Manager"
+  },
+  {
+    "bg_color": { "top": "#DBD978", "bottom": "#3054DB" },
+    "src": "assets/img/member-2.jpg",
+    "title": "Alex Smitt",
+    "subtitle": "Software Engineer"
+  },
+  {
+    "bg_color": { "top": "#E55C21", "bottom": "#0A2640" },
+    "src": "assets/img/member-1.jpg",
+    "title": "Tim Clark",
+    "subtitle": "Resources Specialist"
+  }
+]
