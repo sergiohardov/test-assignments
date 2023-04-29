@@ -1,0 +1,111 @@
+.photo-card {
+  padding: 15px;
+  position: relative;
+  height: 410px;
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    z-index: 2;
+  }
+  &:before {
+    border-top-width: 38px;
+    border-top-style: solid;
+    border-top-color: inherit;
+    top: 0;
+  }
+  &:after {
+    border-bottom-width: 38px;
+    border-bottom-style: solid;
+    border-bottom-color: inherit;
+    bottom: 0;
+  }
+  &__bg-top {
+    width: 100%;
+    height: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: 0;
+      border-bottom-width: 30px;
+      border-bottom-style: solid;
+      border-color: inherit;
+      z-index: 2;
+    }
+    &:before {
+      border-right: 40px solid transparent;
+      left: 0;
+    }
+    &:after {
+      border-left: 40px solid transparent;
+      right: 0;
+    }
+  }
+  &__bg-bottom {
+    width: 100%;
+    height: 50%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      border-top-width: 30px;
+      border-top-style: solid;
+      border-color: inherit;
+      z-index: 2;
+    }
+    &:before {
+      border-right: 40px solid transparent;
+      left: 0;
+    }
+    &:after {
+      border-left: 40px solid transparent;
+      right: 0;
+    }
+  }
+  &__image {
+    background: $color-white;
+    width: 100%;
+    border-radius: 15px;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  @media (max-width: 440px) {
+    height: 420px;
+  }
+  @media (max-width: 350px) {
+    height: 400px;
+  }
+}

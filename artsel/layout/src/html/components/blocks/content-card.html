@@ -1,0 +1,13 @@
+<div class="@@col_class content-card">
+  <div class="content-card__inner @@bg_class">
+
+    @@include('../../components/singles/header-underline.html', {"title": "@@title"}) 
+
+    @@for (var i = 0; i < contents.length; i++) {
+      `+contents[i].item+`
+    } 
+
+    @@include('../../components/singles/button-italic.html', {"class":"@@btn.class","link":"@@btn.link","text": "@@btn.text"})
+
+  </div>
+</div>

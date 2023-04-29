@@ -1,0 +1,49 @@
+.about-section {
+  padding: 47px 0 47px 0;
+  .picture-card {
+    svg {
+      display: block;
+      overflow: visible;
+      width: 100%;
+      height: auto;
+    }
+    .svg_mill_blades_group {
+      transition: all 0.5s;
+      transform-origin: 279px 266px;
+      animation: about-section__mill 5s linear infinite;
+    }
+    @include media-breakpoint-down(lg) {
+      order: 1;
+      svg {
+        height: 500px;
+        width: auto;
+        margin: auto;
+      }
+    }
+    @include media-breakpoint-down(md) {
+      svg {
+        height: 400px;
+        width: auto;
+        margin: auto;
+      }
+    }
+    @include media-breakpoint-down(sm) {
+      svg {
+        height: 350px;
+        width: auto;
+        margin: auto;
+      }
+    }
+    @keyframes about-section__mill {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    padding: 20px 0;
+  }
+}

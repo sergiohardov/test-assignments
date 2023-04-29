@@ -1,0 +1,18 @@
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3 member-card">
+
+  @@include('../singles/social-bar.html')
+
+  @@include('../singles/photo-card.html', {
+    "bg_color_top": "@@bg_color.top", 
+    "bg_color_bottom": "@@bg_color.bottom", 
+    "src": "@@src", 
+    "alt": "@@title"
+  }) 
+
+  @@include('../singles/card-header.html', {
+    "class": "text-center text-color-white", 
+    "title": "@@title", 
+    "subtitle": "@@subtitle"
+  })
+  
+</div>

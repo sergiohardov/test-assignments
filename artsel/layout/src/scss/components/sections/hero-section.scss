@@ -1,0 +1,15 @@
+.hero-section {
+  padding: 80px 0 80px 0;
+  .row:has(.member-card) {
+    row-gap: 80px;
+  }
+  .swiper-pagination {
+    position: relative;
+    &-bullet-active {
+      background: $color-lemon;
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    padding: 40px 0 40px 0;
+  }
+}

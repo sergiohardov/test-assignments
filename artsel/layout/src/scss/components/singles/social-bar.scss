@@ -1,0 +1,18 @@
+.social-navbar {
+  background: $color-lemon;
+  padding: 5px 16px;
+  width: max-content;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  &__icon {
+    width: 22px;
+    height: 22px;
+    transition: 0.2s;
+    fill: $color-green;
+    &:hover {
+      fill: $color-red;
+    }
+  }
+}
